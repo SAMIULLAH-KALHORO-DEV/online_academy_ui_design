@@ -39,7 +39,7 @@ class MainContainer extends StatelessWidget {
                       "Your main course",
                       style: TextStyle(fontSize: 15, color: Colors.white),
                     )),
-                Icon(Icons.line_axis)
+               const Icon(Icons.line_axis)
               ],
             ),
             const SizedBox(height: 10),
