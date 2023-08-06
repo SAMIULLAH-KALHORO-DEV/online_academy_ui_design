@@ -6,7 +6,7 @@ class TextStyling {
       color: Colors.black54.withOpacity(0.7),
       fontWeight: FontWeight.w400,
       fontSize: 12);
-  final h3 = TextStyle(fontWeight: FontWeight.bold, fontSize: 18);
+  final h3 =const TextStyle(fontWeight: FontWeight.bold, fontSize: 18);
 }
 
 class Pallete {
