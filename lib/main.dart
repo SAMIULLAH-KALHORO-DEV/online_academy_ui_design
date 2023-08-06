@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:online_academy_ui_design/widgets/screen2.dart';
 
 import 'home.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: const Home(),
+      home: const Screen2(),
     );
   }
 }

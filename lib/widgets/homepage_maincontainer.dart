@@ -35,7 +35,7 @@ class MainContainer extends StatelessWidget {
                     height: 30,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Color(0xFFF3B044)),
+                        color: const Color(0xFFF3B044)),
                     child: Text("Your main course", style: TextStyling().h1)),
                 const Icon(Icons.line_axis)
               ],

@@ -44,7 +44,7 @@ class ClassesContainer extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
-              child: Image(image: AssetImage("$imaage")),
+              child: Image(image: AssetImage(imaage)),
             ),
             Text(h1Text, style: h1Style),
             Row(children: [

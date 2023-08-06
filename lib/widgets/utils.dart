@@ -1,17 +1,16 @@
-
 import 'package:flutter/material.dart';
 
-
-
 class TextStyling {
-
-  final  h1 = TextStyle(color: Colors.black54.withOpacity(0.4), fontWeight: FontWeight.bold);
-  final  h2 = TextStyle(color: Colors.black54.withOpacity(0.7),  fontWeight: FontWeight.w400, fontSize: 12);
+  final h1 = const TextStyle(fontSize: 25, fontWeight: FontWeight.w800);
+  final h2 = TextStyle(
+      color: Colors.black54.withOpacity(0.7),
+      fontWeight: FontWeight.w400,
+      fontSize: 12);
 }
 
 class Pallete {
-  static const Color mainBgColor =  Color(0xFFF3B148);
-  static const Color dropBgColor =  Color(0xFFFDEFD8);
+  static const Color mainBgColor = Color(0xFFF3B148);
+  static const Color dropBgColor = Color(0xFFFDEFD8);
 }
 
 
