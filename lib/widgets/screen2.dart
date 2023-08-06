@@ -103,7 +103,7 @@ class Screen2 extends StatelessWidget {
                     min: 1,
                     onChanged: null))
           ]),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           Text("Attachments", style: TextStyling().h3),
         ]),
       ),
