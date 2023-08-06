@@ -27,7 +27,7 @@ class ClassesContainer extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(right: 10, top: 10, bottom: 10),
       padding: const EdgeInsets.all(10),
-      height: 220,
+      height: 240,
       width: MediaQuery.of(context).size.width / 2,
       decoration: BoxDecoration(
           color: Colors.white,
@@ -44,7 +44,7 @@ class ClassesContainer extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
-              child:  Image(image: AssetImage("$imaage")),
+              child: Image(image: AssetImage("$imaage")),
             ),
             Text(h1Text, style: h1Style),
             Row(children: [

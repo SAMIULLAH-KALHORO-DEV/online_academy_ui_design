@@ -59,10 +59,21 @@ class Home extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: EdgeInsets.all(20),
-                padding: EdgeInsets.all(20),
-                height: 70,
+                margin: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(10),
+                height: 60,
                 width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                    color: const Color(0xFFF3B148),
+                    borderRadius: BorderRadius.circular(20)),
+                child: const Center(
+                    child: Text(
+                  "View the schedule",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20),
+                )),
               )
             ]),
       ),

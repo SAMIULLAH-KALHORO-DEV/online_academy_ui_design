@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:online_academy_ui_design/widgets/utils.dart';
 
 class MainContainer extends StatelessWidget {
   MainContainer({
@@ -6,7 +7,7 @@ class MainContainer extends StatelessWidget {
   });
   final textStyle = TextStyle(
       color: Colors.black54.withOpacity(0.4), fontWeight: FontWeight.bold);
-  final double _value = 14;
+  final double _value = 60;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,10 +36,7 @@ class MainContainer extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
                         color: Color(0xFFF3B044)),
-                    child: const Text(
-                      "Your main course",
-                      style: TextStyle(fontSize: 15, color: Colors.white),
-                    )),
+                    child: Text("Your main course", style: TextStyling().h1)),
                 const Icon(Icons.line_axis)
               ],
             ),
