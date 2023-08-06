@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_academy_ui_design/widgets/screen2.dart';
 
-import 'home.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
