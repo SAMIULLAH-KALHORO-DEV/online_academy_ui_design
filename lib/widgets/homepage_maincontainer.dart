@@ -11,7 +11,7 @@ class MainContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(10),
-      height: 180,
+      height: 200,
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
           color: Colors.white,
@@ -34,18 +34,18 @@ class MainContainer extends StatelessWidget {
                     height: 30,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: const Color.fromARGB(255, 234, 200, 86)),
+                        color: Color(0xFFF3B044)),
                     child: const Text(
                       "Your main course",
                       style: TextStyle(fontSize: 15, color: Colors.white),
                     )),
-               const Icon(Icons.line_axis)
+                const Icon(Icons.line_axis)
               ],
             ),
             const SizedBox(height: 10),
             const Text(
               "Marketing in B2B",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
             ),
             Column(
               children: [
