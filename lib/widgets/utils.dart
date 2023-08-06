@@ -6,10 +6,12 @@ class TextStyling {
       color: Colors.black54.withOpacity(0.7),
       fontWeight: FontWeight.w400,
       fontSize: 12);
+  final h3 = TextStyle(fontWeight: FontWeight.bold, fontSize: 18);
 }
 
 class Pallete {
   static const Color mainBgColor = Color(0xFFF3B148);
+  static const Color darkColor = Colors.black;
   static const Color dropBgColor = Color(0xFFFDEFD8);
 }
 
