@@ -14,12 +14,12 @@ class Screen2 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-                const Icon(
+              const Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+                Icon(
                   Icons.sort_rounded,
                   size: 30,
                 ),
-                Row(children: const [
+                Row(children: [
                   Icon(
                     Icons.notifications_none_rounded,
                     size: 30,
