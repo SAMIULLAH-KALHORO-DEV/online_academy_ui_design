@@ -111,7 +111,7 @@ class Screen3 extends StatelessWidget {
                         decoration: BoxDecoration(
                           // shape: BoxShape.circle,
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                               image: AssetImage("assets/image1.jpg"),
                               fit: BoxFit.fill),
                           color: Colors.white,
@@ -132,8 +132,8 @@ class Screen3 extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Icon(Icons.alarm, color: Colors.amber),
                       Text("9:00 = 10:30"),
                       SizedBox(width: 10),
@@ -162,7 +162,7 @@ class Screen3 extends StatelessWidget {
                         decoration: BoxDecoration(
                           // shape: BoxShape.circle,
                           borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
+                          image: const DecorationImage(
                               image: AssetImage("assets/image1.jpg"),
                               fit: BoxFit.fill),
                           color: Colors.white,
@@ -183,8 +183,8 @@ class Screen3 extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Icon(Icons.alarm, color: Colors.amber),
                       Text("9:00 = 10:30"),
                       SizedBox(width: 10),
